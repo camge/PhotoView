@@ -246,8 +246,8 @@ public class PhotoViewAttacher implements IPhotoView, View.OnTouchListener, Vers
 
 			if (scale < mMidScale) {
 				zoomTo(mMidScale, x, y);
-			} else if (scale >= mMidScale && scale < mMaxScale) {
-				zoomTo(mMaxScale, x, y);
+			//} else if (scale >= mMidScale && scale < mMaxScale) {
+			//	zoomTo(mMaxScale, x, y);
 			} else {
 				zoomTo(mMinScale, x, y);
 			}
